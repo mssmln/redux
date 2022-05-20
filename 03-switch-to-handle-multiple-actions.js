@@ -15,6 +15,7 @@ const defaultState = {
     authenticated: false
 };
 
+// A common practice when working with Redux is to assign action types as read-only constants, then reference these constants wherever they are used.
 const LOGIN = 'LOGIN';
 const LOGOUT = 'LOGOUT';
   
